@@ -69,4 +69,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### To [contribute](https://github.com/Bikramjit21/Teenflix/blob/21efbe1b416d963c8cd9f2c1e5b818dcd9c05999/contributors.md) to this project, follow the proper guidelines mentioned and have your successful open source contribution.
+To [contribute](https://github.com/Bikramjit21/Teenflix/blob/21efbe1b416d963c8cd9f2c1e5b818dcd9c05999/contributors.md) to this project, follow the proper guidelines mentioned and have your successful open source contribution.
