@@ -4,16 +4,19 @@
     width:200px;
     padding:5px;
     margin: 5px 0;
-    background-color: black;
     position: relative;
     border-radius: 10px;
     font-family:'Montserrat', sans-serif;
+
+    background-color: red;
+
+    transition: all .3s linear;
     
 }
 
 .media:hover{
-    background-color: white;
-    color:black;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
 }
 
 @media(max-width:550px){
