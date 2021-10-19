@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+Following are the commands you can run throughout project while making any contribution(or changes).
 
 ### `npm start`
 
@@ -68,3 +68,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### To [contribute](https://github.com/Bikramjit21/Teenflix/blob/21efbe1b416d963c8cd9f2c1e5b818dcd9c05999/contributors.md) to this project, follow the proper guidelines mentioned and have your successful open source contribution.
