@@ -1,10 +1,179 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=60px src="./images/logo.png" alt="TeenFlix Logo"></a>
+</p>
+
+<h3 align="center"> <a href = "https://teenflix.netlify.app/">TeenFlix App </a></h3>
+
+<!-- <div align="center">
+
+  [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
+  [![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+
+</div> -->
+
+> <p align="center"> An application to display trending movies, TV shows, and other information such as rating, description, poster, cast, etc.</p>
+
+!["Homepage"](./images/demo.gif)
+
+<!-- <p align="center">
+  <a href="" rel="noopener">
+ <img width=600px height=400px src="./images/trending.png" alt="TeenFlix Homepage"></a>
+</p> -->
+
+
+
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [About <a name = "about"></a>](#about-)
+- [Getting Started <a name = "getting_started"></a>](#getting-started-)
+  - [Prerequisites](#prerequisites)
+  - [Installing](#installing)
+  - [Running the tests <a name = "tests"></a>](#running-the-tests-)
+- [Usage <a name="usage"></a>](#usage-)
+  - [Pages](#pages)
+  - [Components](#components)
+  - [Hooks](#hooks)
+- [Deployment <a name = "deployment"></a>](#deployment-)
+- [Built Using <a name = "built_using"></a>](#built-using-)
+- [✍️ Authors <a name = "authors"></a>](#️-authors-)
+
+## About <a name = "about"></a>
+TeenFlix is a `React-based` application that displays the top **200** trending movies and TV shows along with their `rating`, `type`, `poster`, `release date`, `trailer'` and `title`. 
+
+The short video below shows how the application works.
+
+!["Trending Page"](./images/trending.png)
+
+!["Movies Page"](./images/movies.png)
+
+!["TV Shows Page"](./images/tvseries.png)
+
+Users can also `search` for movies and TV shows separately with options to filter them `by multiple genres` such as `Action`, `Adventure`, `Animation`, `Comedy`, `Crime`, `Documentary`, `Drama`, `Fantasy`, `Family`, `History`, `Horror`, `Music`, `Mystery`, `Romance`, `Science Fiction`, `TV movie`, `Thriller`, `War` and `Western`. Multiple filters can be applied to refine the searches. 
+
+!["Filter"](./images/tvfilter.gif)
+
+Users can also `search` for movies and TV shows `by title`, and view all results that match the given `keyword`.
+
+!["Search Movie"](./images/moviesearch.png)
+!["Search TV Show"](./images/tvshowsearch.png)
+
+Clicking on each title would show users the `movie poster`, `title`, `description`, `movie cast`, `tagline` and a button to view the `movie trailer` as well.
+
+<p align="center">
+<a href="" rel="noopener">
+ <img width=250px height=350px src="./images/icon.png" alt="TeenFlix Logo"></a>
+  <a href="" rel="noopener">
+ <img width=600px height=350px src="./images/title.png" alt="TeenFlix Logo"></a>
+ 
+</p>
+
+## Getting Started <a name = "getting_started"></a>
+
+A live version of the application is deployed on Netlify [here](https://teenflix.netlify.app/).
+
+To download it on your local machine, follow the steps below.
+
+```bash
+$ git clone https://github.com/Rajeet10/Teenflix.git
+$ cd TeenFlix
+```
+
+### Prerequisites
+
+It is important to have `node` and `npm` installed on your system for running the application locally.
+
+You also need an API key for your application from the [MovieDB API](https://developers.themoviedb.org/3/getting-started/introduction). This API Key would be assigned to the REACT_APP_API_KEY in the environmental variables in the `.env` file.
+
+### Installing
+
+To install the required packages, navigate to the project directory and run the following in the shell:
+
+```bash
+$ npm install
+```
+
+To begin the server, run the following in the shell:
+
+```bash
+$ npm start
+```
+
+The server will run at http://localhost:3000/
+
+### Running the tests <a name = "tests"></a>
+
+To run tests, navigate to the project directory and run the following in the shell:
+
+```bash
+$ npm test
+```
+
+## Usage <a name="usage"></a>
+
+To view the `top trending movies and TV shows` in order of `popularity` navigate to the `home page` of the application or the `trending tab`.
+
+To view `movies` individually, navigate to the `movies tab` and apply `filters` by clicking on the buttons. All `selected filters` are applied together.
+
+To view `TV shows` individually, navigate to the `TV Series tab` and apply `filters` by clicking on the buttons. All `selected filters` are applied together.
+
+To search for movies or TV shows, navigate to the `Search tab` and enter your query in the search bar.
+
+All the content is paginated, and subsequent pages can be viewed by scrolling to the bottom of the page and selecting the next page.
+
+### Pages 
+
+The application contains four pages for `Movies`, `Series`, `Trending` and `Search` present within their respective directories in `./src/Pages`.
+
+### Components
+
+The application contains many components such as the `Carousel`, `ContentModal`, `Genres`, `Header`, `Pagination`, `Single Content` and `Main Navbar` which can all be found in their respective directories in `./src/Components`.
+
+### Hooks
+
+The application contains the `useGenre` hook present in `./src/hooks`.
+
+
+## Deployment <a name = "deployment"></a>
+
+This application has also been deployed on [Netlify](https://netlify.com/) over [here](https://teenflix.netlify.app/).
+
+In order to deploy this application using Netlify, follow the steps below:
+
+```bash
+$ cd Teenflix
+$ npm run build
+$ npm install netlify-cli -g
+$ netlify deploy
+```
+
+Answer the questions in the shell, and the app is ready!
+
+You can find more information [here](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/) and [here](https://www.freecodecamp.org/news/how-to-deploy-react-router-based-app-to-netlify/).
+
+## Built Using <a name = "built_using"></a>
+
+- React
+- JavaScript
+- HTML
+- CSS
+
+The application also makes use of the [MovieDB API](https://api.themoviedb.org/3/trending/all/day?api_key=${process.env.REACT_APP_API_KEY}&page=${page}). You can find more information about the API [here](https://www.themoviedb.org/documentation/api).
+
+## ✍️ Authors <a name = "authors"></a>
+- [@Rajeet10](https://github.com/Rajeet10)
+- [@Bikramjit21](https://github.com/Bikramjit21)
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-Following are the commands you can run throughout project while making any contribution(or changes).
+In the project directory, you can run:
 
 ### `npm start`
 
@@ -67,6 +236,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-To [contribute](https://github.com/Bikramjit21/Teenflix/blob/21efbe1b416d963c8cd9f2c1e5b818dcd9c05999/contributors.md) to this project, follow the proper guidelines mentioned and have your successful open source contribution.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
