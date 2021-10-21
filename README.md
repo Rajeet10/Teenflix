@@ -38,7 +38,7 @@
   - [Hooks](#hooks)
 - [Deployment <a name = "deployment"></a>](#deployment-)
 - [Built Using <a name = "built_using"></a>](#built-using-)
-- [✍️ Authors <a name = "authors"></a>](#️-authors-)
+- [Authors <a name = "authors"></a>](#️-authors-)
 
 ## About <a name = "about"></a>
 TeenFlix is a `React-based` application that displays the top **200** trending movies and TV shows along with their `rating`, `type`, `poster`, `release date`, `trailer'` and `title`. 
@@ -162,7 +162,7 @@ You can find more information [here](https://www.netlify.com/blog/2016/07/22/dep
 
 The application also makes use of the [MovieDB API](https://api.themoviedb.org/3/trending/all/day?api_key=${process.env.REACT_APP_API_KEY}&page=${page}). You can find more information about the API [here](https://www.themoviedb.org/documentation/api).
 
-## ✍️ Authors <a name = "authors"></a>
+## Authors <a name = "authors"></a>
 - [@Rajeet10](https://github.com/Rajeet10)
 - [@Bikramjit21](https://github.com/Bikramjit21)
 
