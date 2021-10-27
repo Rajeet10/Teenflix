@@ -164,7 +164,6 @@ The application also makes use of the [MovieDB API](https://api.themoviedb.org/3
 
 ## Authors <a name = "authors"></a>
 - [@Rajeet10](https://github.com/Rajeet10)
-- [@Bikramjit21](https://github.com/Bikramjit21)
 
 
 <!-- # Getting Started with Create React App
