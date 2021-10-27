@@ -78,4 +78,4 @@ git push -u origin <your_branch_name>
 <p align="center"><img width=35% src="https://media.giphy.com/media/TdfyKrN7HGTIY/giphy.gif"></p>
 <hr>
 
- ✨This project and everyone participating in it is governed by **[Code Of Conduct](https://github.com/Bikramjit21/Teenflix/blob/5bfb13cfb95505ec261f28102f2984b33db38560/contributors.md)** .By participating, you are expected to uphold this code.✨
+ ✨This project and everyone participating in it is governed by **[Code Of Conduct](code_of_conduct.md)** .By participating, you are expected to uphold this code.✨
